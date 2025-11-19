@@ -3,9 +3,15 @@
 风险平价的核心思想：让每个资产对投资组合的风险贡献相等
 """
 
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
+
+
+OUTPUT_DIR = Path(__file__).resolve().parent
 
 
 def generate_mock_data(n_assets=4, n_days=252):
@@ -110,6 +116,43 @@ def calculate_risk_contributions(weights, cov_matrix):
     return risk_contrib, risk_contrib_pct
 
 
+def save_results(returns, optimal_weights, risk_contrib_pct, portfolio_vol):
+    """
+    将回测结果保存到文件
+    """
+    timestamp = pd.Timestamp.now().strftime("%Y%m%d_%H%M%S")
+    base_name = f"risk_parity_{timestamp}"
+
+    returns_file = OUTPUT_DIR / f"{base_name}_returns.csv"
+    weights_file = OUTPUT_DIR / f"{base_name}_weights.csv"
+    summary_file = OUTPUT_DIR / f"{base_name}_summary.json"
+
+    # 保存收益率数据
+    returns.to_csv(returns_file, index=True, encoding="utf-8")
+
+    # 保存权重与风险贡献
+    summary_df = pd.DataFrame({
+        '资产': returns.columns,
+        '权重': optimal_weights,
+        '风险贡献占比(%)': risk_contrib_pct
+    })
+    summary_df.to_csv(weights_file, index=False, encoding="utf-8")
+
+    metadata = {
+        'timestamp': timestamp,
+        'portfolio_volatility': float(portfolio_vol),
+        'returns_file': str(returns_file.name),
+        'weights_file': str(weights_file.name)
+    }
+    summary_file.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    return {
+        'returns_file': str(returns_file),
+        'weights_file': str(weights_file),
+        'summary_file': str(summary_file)
+    }
+
+
 def main():
     """
     主函数：执行风险平价策略
@@ -169,16 +212,24 @@ def main():
     for i, asset in enumerate(returns.columns):
         print(f"   {asset}: {equal_risk_contrib_pct[i]:.2f}%")
     
+    # 6. 保存结果
+    print("\n6. 保存结果到文件...")
+    file_paths = save_results(returns, optimal_weights, risk_contrib_pct, portfolio_vol)
+    print(f"   收益率数据: {file_paths['returns_file']}")
+    print(f"   权重与风险贡献: {file_paths['weights_file']}")
+    print(f"   元数据: {file_paths['summary_file']}")
+
     print("\n" + "=" * 60)
     print("策略执行完成！")
     print("=" * 60)
     
-    # 6. 返回结果
+    # 返回结果
     results = {
         'weights': optimal_weights,
         'portfolio_volatility': portfolio_vol,
         'risk_contributions': risk_contrib_pct,
-        'assets': returns.columns.tolist()
+        'assets': returns.columns.tolist(),
+        'files': file_paths
     }
     
     return results
