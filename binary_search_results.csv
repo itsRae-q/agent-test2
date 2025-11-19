@@ -1,0 +1,6 @@
+target,found,index,value
+0,True,0,0
+35,True,7,35
+55,True,11,55
+100,True,20,100
+42,False,-1,
