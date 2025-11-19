@@ -1,0 +1,22 @@
+{
+  "recursive": [
+    4,
+    5,
+    2,
+    6,
+    7,
+    3,
+    1
+  ],
+  "iterative": [
+    4,
+    5,
+    2,
+    6,
+    7,
+    3,
+    1
+  ],
+  "timestamp": "2025-11-19T08:40:20.399816Z",
+  "tree_description": "Perfect binary tree with values 1-7"
+}
