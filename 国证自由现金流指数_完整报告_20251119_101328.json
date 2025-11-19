@@ -1,0 +1,1045 @@
+{
+  "index_info": {
+    "name": "国证自由现金流指数",
+    "code": "980092",
+    "base_date": "2012-12-31",
+    "base_point": 1000,
+    "calculation_date": "2025-11-19",
+    "index_value": 1660.735045390385
+  },
+  "components_summary": {
+    "total_components": 100,
+    "max_weight": 0.10000000000000003,
+    "min_weight": 0.0015020970973077332,
+    "avg_weight": 0.01,
+    "weight_concentration": 4
+  },
+  "components": [
+    {
+      "stock_code": "000530.SH",
+      "stock_name": "股票530",
+      "industry": "机械设备",
+      "market_cap": 66551.76622781174,
+      "price": 21.03919263199416,
+      "fcf_yield": 1783.5254069947525,
+      "adjusted_weight": 0.10000000000000003,
+      "weight_pct": 10.000000000000004
+    },
+    {
+      "stock_code": "000114.SH",
+      "stock_name": "股票114",
+      "industry": "商业贸易",
+      "market_cap": 104718.96216353362,
+      "price": 26.243371277149567,
+      "fcf_yield": 1546.01745240641,
+      "adjusted_weight": 0.09368546744298552,
+      "weight_pct": 9.368546744298552
+    },
+    {
+      "stock_code": "000706.SH",
+      "stock_name": "股票706",
+      "industry": "信息技术",
+      "market_cap": 119890.27690529924,
+      "price": 23.086410750792325,
+      "fcf_yield": 1493.6212896705874,
+      "adjusted_weight": 0.09051340481119179,
+      "weight_pct": 9.051340481119178
+    },
+    {
+      "stock_code": "000243.SZ",
+      "stock_name": "股票243",
+      "industry": "公用事业",
+      "market_cap": 68814.98651155506,
+      "price": 90.80312398927076,
+      "fcf_yield": 1354.9722662945737,
+      "adjusted_weight": 0.08211959574156194,
+      "weight_pct": 8.211959574156195
+    },
+    {
+      "stock_code": "000340.SH",
+      "stock_name": "股票340",
+      "industry": "机械设备",
+      "market_cap": 143896.8417665365,
+      "price": 93.62243056203015,
+      "fcf_yield": 795.5811605519548,
+      "adjusted_weight": 0.04825406951914659,
+      "weight_pct": 4.825406951914659
+    },
+    {
+      "stock_code": "000269.SZ",
+      "stock_name": "股票269",
+      "industry": "家用电器",
+      "market_cap": 375958.2432431024,
+      "price": 31.575866938061747,
+      "fcf_yield": 690.0494976623203,
+      "adjusted_weight": 0.04186518478323447,
+      "weight_pct": 4.186518478323447
+    },
+    {
+      "stock_code": "000043.SZ",
+      "stock_name": "股票43",
+      "industry": "家用电器",
+      "market_cap": 336789.50727795676,
+      "price": 48.94079803264905,
+      "fcf_yield": 661.1864781338024,
+      "adjusted_weight": 0.04011781816501933,
+      "weight_pct": 4.011781816501933
+    },
+    {
+      "stock_code": "000738.SH",
+      "stock_name": "股票738",
+      "industry": "化工",
+      "market_cap": 556437.0202597425,
+      "price": 92.7940551679864,
+      "fcf_yield": 553.9544048197732,
+      "adjusted_weight": 0.033625990616422075,
+      "weight_pct": 3.3625990616422072
+    },
+    {
+      "stock_code": "000576.SH",
+      "stock_name": "股票576",
+      "industry": "通信",
+      "market_cap": 216440.83579154214,
+      "price": 98.67641061991218,
+      "fcf_yield": 493.87226631926296,
+      "adjusted_weight": 0.02998861916735936,
+      "weight_pct": 2.998861916735936
+    },
+    {
+      "stock_code": "000625.SZ",
+      "stock_name": "股票625",
+      "industry": "制造业",
+      "market_cap": 100442.43974395144,
+      "price": 28.860048129037143,
+      "fcf_yield": 467.83655709425176,
+      "adjusted_weight": 0.028412417857708074,
+      "weight_pct": 2.841241785770807
+    },
+    {
+      "stock_code": "000101.SZ",
+      "stock_name": "股票101",
+      "industry": "传媒",
+      "market_cap": 469903.2091647468,
+      "price": 11.953612758002146,
+      "fcf_yield": 455.59864517626767,
+      "adjusted_weight": 0.027671534917826673,
+      "weight_pct": 2.7671534917826675
+    },
+    {
+      "stock_code": "000506.SH",
+      "stock_name": "股票506",
+      "industry": "公用事业",
+      "market_cap": 319856.71337138995,
+      "price": 60.175698836080194,
+      "fcf_yield": 395.56562016562054,
+      "adjusted_weight": 0.02403713679844647,
+      "weight_pct": 2.403713679844647
+    },
+    {
+      "stock_code": "000352.SH",
+      "stock_name": "股票352",
+      "industry": "通信",
+      "market_cap": 286272.6402794968,
+      "price": 39.173386881475615,
+      "fcf_yield": 275.3303505712257,
+      "adjusted_weight": 0.0167580960101547,
+      "weight_pct": 1.67580960101547
+    },
+    {
+      "stock_code": "000624.SH",
+      "stock_name": "股票624",
+      "industry": "信息技术",
+      "market_cap": 486334.64771021105,
+      "price": 81.91905451836696,
+      "fcf_yield": 234.00330354919095,
+      "adjusted_weight": 0.014256157419690834,
+      "weight_pct": 1.4256157419690834
+    },
+    {
+      "stock_code": "000214.SH",
+      "stock_name": "股票214",
+      "industry": "公用事业",
+      "market_cap": 183595.50342208814,
+      "price": 11.696734836098742,
+      "fcf_yield": 210.87505632207996,
+      "adjusted_weight": 0.01285597380056012,
+      "weight_pct": 1.2855973800560119
+    },
+    {
+      "stock_code": "000395.SZ",
+      "stock_name": "股票395",
+      "industry": "国防军工",
+      "market_cap": 451221.9591232149,
+      "price": 33.72759532887261,
+      "fcf_yield": 206.90092877963173,
+      "adjusted_weight": 0.012615380199556518,
+      "weight_pct": 1.2615380199556518
+    },
+    {
+      "stock_code": "000183.SZ",
+      "stock_name": "股票183",
+      "industry": "制造业",
+      "market_cap": 918119.1335578115,
+      "price": 65.97669609125876,
+      "fcf_yield": 196.81503312621416,
+      "adjusted_weight": 0.012004780280786062,
+      "weight_pct": 1.2004780280786063
+    },
+    {
+      "stock_code": "000024.SH",
+      "stock_name": "股票24",
+      "industry": "制造业",
+      "market_cap": 1130867.7332962889,
+      "price": 49.14401222926308,
+      "fcf_yield": 169.94631669395085,
+      "adjusted_weight": 0.010378148731663579,
+      "weight_pct": 1.037814873166358
+    },
+    {
+      "stock_code": "000779.SZ",
+      "stock_name": "股票779",
+      "industry": "食品饮料",
+      "market_cap": 1073971.3284114066,
+      "price": 21.62469873130548,
+      "fcf_yield": 163.51336642535708,
+      "adjusted_weight": 0.009988698052573243,
+      "weight_pct": 0.9988698052573244
+    },
+    {
+      "stock_code": "000111.SZ",
+      "stock_name": "股票111",
+      "industry": "传媒",
+      "market_cap": 635095.6223978489,
+      "price": 99.28593270504565,
+      "fcf_yield": 142.4991157637036,
+      "adjusted_weight": 0.008716495742738743,
+      "weight_pct": 0.8716495742738744
+    },
+    {
+      "stock_code": "000486.SH",
+      "stock_name": "股票486",
+      "industry": "食品饮料",
+      "market_cap": 844589.2288778276,
+      "price": 67.6876373487587,
+      "fcf_yield": 123.35898151680574,
+      "adjusted_weight": 0.007557752402730925,
+      "weight_pct": 0.7557752402730925
+    },
+    {
+      "stock_code": "000689.SZ",
+      "stock_name": "股票689",
+      "industry": "采掘",
+      "market_cap": 692505.8823246178,
+      "price": 33.26694232761638,
+      "fcf_yield": 114.71649999035729,
+      "adjusted_weight": 0.00703453674599979,
+      "weight_pct": 0.703453674599979
+    },
+    {
+      "stock_code": "000667.SZ",
+      "stock_name": "股票667",
+      "industry": "采掘",
+      "market_cap": 2860855.0700245243,
+      "price": 22.6932691384786,
+      "fcf_yield": 113.52534436476783,
+      "adjusted_weight": 0.006962424208529561,
+      "weight_pct": 0.6962424208529561
+    },
+    {
+      "stock_code": "000178.SH",
+      "stock_name": "股票178",
+      "industry": "轻工制造",
+      "market_cap": 549294.8816264065,
+      "price": 22.366687482405545,
+      "fcf_yield": 109.54825356823989,
+      "adjusted_weight": 0.006721651212183934,
+      "weight_pct": 0.6721651212183934
+    },
+    {
+      "stock_code": "000489.SZ",
+      "stock_name": "股票489",
+      "industry": "商业贸易",
+      "market_cap": 315808.37367940444,
+      "price": 71.77231218475963,
+      "fcf_yield": 109.2950694977079,
+      "adjusted_weight": 0.00670632345367709,
+      "weight_pct": 0.670632345367709
+    },
+    {
+      "stock_code": "000042.SH",
+      "stock_name": "股票42",
+      "industry": "医药生物",
+      "market_cap": 1601566.8320146592,
+      "price": 70.58750871978971,
+      "fcf_yield": 108.46790906075175,
+      "adjusted_weight": 0.006656247177561303,
+      "weight_pct": 0.6656247177561303
+    },
+    {
+      "stock_code": "000152.SH",
+      "stock_name": "股票152",
+      "industry": "商业贸易",
+      "market_cap": 1234285.7641440495,
+      "price": 91.41454784647628,
+      "fcf_yield": 105.39973293199198,
+      "adjusted_weight": 0.006470499856810532,
+      "weight_pct": 0.6470499856810532
+    },
+    {
+      "stock_code": "000053.SZ",
+      "stock_name": "股票53",
+      "industry": "汽车",
+      "market_cap": 1721812.5229032056,
+      "price": 73.6139939973413,
+      "fcf_yield": 104.87270047661498,
+      "adjusted_weight": 0.006438593322626476,
+      "weight_pct": 0.6438593322626476
+    },
+    {
+      "stock_code": "000429.SZ",
+      "stock_name": "股票429",
+      "industry": "信息技术",
+      "market_cap": 1387404.593876387,
+      "price": 16.93348324984241,
+      "fcf_yield": 102.34610816522996,
+      "adjusted_weight": 0.0062856334752206585,
+      "weight_pct": 0.6285633475220659
+    },
+    {
+      "stock_code": "000090.SH",
+      "stock_name": "股票90",
+      "industry": "公用事业",
+      "market_cap": 1581953.8404585249,
+      "price": 36.56988940873535,
+      "fcf_yield": 94.70350594899806,
+      "adjusted_weight": 0.005822950491697539,
+      "weight_pct": 0.5822950491697539
+    },
+    {
+      "stock_code": "000696.SH",
+      "stock_name": "股票696",
+      "industry": "电气设备",
+      "market_cap": 982419.9241370517,
+      "price": 27.545181899369652,
+      "fcf_yield": 92.79005397906973,
+      "adjusted_weight": 0.005707110148156655,
+      "weight_pct": 0.5707110148156656
+    },
+    {
+      "stock_code": "000610.SH",
+      "stock_name": "股票610",
+      "industry": "计算机",
+      "market_cap": 688074.3569713044,
+      "price": 45.67078912598796,
+      "fcf_yield": 91.13758393586366,
+      "adjusted_weight": 0.005607069645178584,
+      "weight_pct": 0.5607069645178584
+    },
+    {
+      "stock_code": "000204.SH",
+      "stock_name": "股票204",
+      "industry": "国防军工",
+      "market_cap": 626128.0632991621,
+      "price": 10.375637333937984,
+      "fcf_yield": 85.3558746780272,
+      "adjusted_weight": 0.005257045083701678,
+      "weight_pct": 0.5257045083701678
+    },
+    {
+      "stock_code": "000216.SH",
+      "stock_name": "股票216",
+      "industry": "休闲服务",
+      "market_cap": 2230120.793971375,
+      "price": 23.416991454004805,
+      "fcf_yield": 84.79955260111274,
+      "adjusted_weight": 0.005223365356422417,
+      "weight_pct": 0.5223365356422417
+    },
+    {
+      "stock_code": "000605.SZ",
+      "stock_name": "股票605",
+      "industry": "采掘",
+      "market_cap": 1596365.7923682255,
+      "price": 42.73661530879209,
+      "fcf_yield": 75.31168357287946,
+      "adjusted_weight": 0.00464896995743959,
+      "weight_pct": 0.464896995743959
+    },
+    {
+      "stock_code": "000284.SH",
+      "stock_name": "股票284",
+      "industry": "轻工制造",
+      "market_cap": 1107171.583304777,
+      "price": 11.33591873351764,
+      "fcf_yield": 73.44939291049025,
+      "adjusted_weight": 0.0045362269184218785,
+      "weight_pct": 0.45362269184218784
+    },
+    {
+      "stock_code": "000050.SH",
+      "stock_name": "股票50",
+      "industry": "家用电器",
+      "market_cap": 3738110.690251316,
+      "price": 82.3845984219813,
+      "fcf_yield": 71.69157414194471,
+      "adjusted_weight": 0.00442980860574348,
+      "weight_pct": 0.442980860574348
+    },
+    {
+      "stock_code": "000158.SH",
+      "stock_name": "股票158",
+      "industry": "电气设备",
+      "market_cap": 1299955.644539428,
+      "price": 38.7032727244185,
+      "fcf_yield": 67.91316724762352,
+      "adjusted_weight": 0.004201063928817094,
+      "weight_pct": 0.4201063928817094
+    },
+    {
+      "stock_code": "000046.SH",
+      "stock_name": "股票46",
+      "industry": "休闲服务",
+      "market_cap": 458413.1198705524,
+      "price": 32.084041025915475,
+      "fcf_yield": 65.42677378838296,
+      "adjusted_weight": 0.004050537719106681,
+      "weight_pct": 0.4050537719106681
+    },
+    {
+      "stock_code": "000149.SZ",
+      "stock_name": "股票149",
+      "industry": "食品饮料",
+      "market_cap": 1779000.972284125,
+      "price": 96.79312401714583,
+      "fcf_yield": 64.65784564504676,
+      "adjusted_weight": 0.004003986824868319,
+      "weight_pct": 0.40039868248683186
+    },
+    {
+      "stock_code": "000327.SZ",
+      "stock_name": "股票327",
+      "industry": "纺织服装",
+      "market_cap": 2153965.5746909794,
+      "price": 27.56091399109148,
+      "fcf_yield": 63.38677993516778,
+      "adjusted_weight": 0.003927036532512178,
+      "weight_pct": 0.39270365325121775
+    },
+    {
+      "stock_code": "000057.SZ",
+      "stock_name": "股票57",
+      "industry": "采掘",
+      "market_cap": 1112972.4485671485,
+      "price": 25.90923533770422,
+      "fcf_yield": 59.827171398864934,
+      "adjusted_weight": 0.003711537903752852,
+      "weight_pct": 0.37115379037528523
+    },
+    {
+      "stock_code": "000370.SH",
+      "stock_name": "股票370",
+      "industry": "家用电器",
+      "market_cap": 3510398.782995135,
+      "price": 66.17125592143765,
+      "fcf_yield": 59.591708145431056,
+      "adjusted_weight": 0.003697282963154549,
+      "weight_pct": 0.3697282963154549
+    },
+    {
+      "stock_code": "000441.SZ",
+      "stock_name": "股票441",
+      "industry": "采掘",
+      "market_cap": 650362.2439571179,
+      "price": 71.0363825148479,
+      "fcf_yield": 59.051659282665575,
+      "adjusted_weight": 0.00366458841593058,
+      "weight_pct": 0.366458841593058
+    },
+    {
+      "stock_code": "000091.SZ",
+      "stock_name": "股票91",
+      "industry": "信息技术",
+      "market_cap": 26079579.39834141,
+      "price": 77.93376936634412,
+      "fcf_yield": 58.423196421998405,
+      "adjusted_weight": 0.003626541287062695,
+      "weight_pct": 0.3626541287062695
+    },
+    {
+      "stock_code": "000564.SH",
+      "stock_name": "股票564",
+      "industry": "国防军工",
+      "market_cap": 857004.2034552884,
+      "price": 79.63832718472334,
+      "fcf_yield": 58.41088872638323,
+      "adjusted_weight": 0.003625796179419197,
+      "weight_pct": 0.36257961794191973
+    },
+    {
+      "stock_code": "000659.SZ",
+      "stock_name": "股票659",
+      "industry": "化工",
+      "market_cap": 7792155.337450079,
+      "price": 13.0492249125802,
+      "fcf_yield": 56.02996462041093,
+      "adjusted_weight": 0.00348165508222148,
+      "weight_pct": 0.348165508222148
+    },
+    {
+      "stock_code": "000558.SH",
+      "stock_name": "股票558",
+      "industry": "传媒",
+      "market_cap": 743500.9392576119,
+      "price": 14.31549561343347,
+      "fcf_yield": 55.44585232284428,
+      "adjusted_weight": 0.0034462929355462695,
+      "weight_pct": 0.34462929355462696
+    },
+    {
+      "stock_code": "000045.SZ",
+      "stock_name": "股票45",
+      "industry": "传媒",
+      "market_cap": 689781.919906697,
+      "price": 31.958711050878826,
+      "fcf_yield": 55.36509580104789,
+      "adjusted_weight": 0.003441403937350819,
+      "weight_pct": 0.3441403937350819
+    },
+    {
+      "stock_code": "000081.SZ",
+      "stock_name": "股票81",
+      "industry": "医药生物",
+      "market_cap": 1413553.3931111575,
+      "price": 77.03500361325715,
+      "fcf_yield": 53.85669433905098,
+      "adjusted_weight": 0.003350085343363932,
+      "weight_pct": 0.3350085343363932
+    },
+    {
+      "stock_code": "000069.SZ",
+      "stock_name": "股票69",
+      "industry": "食品饮料",
+      "market_cap": 2137242.5460599647,
+      "price": 68.64215913225372,
+      "fcf_yield": 51.963401270373495,
+      "adjusted_weight": 0.0032354654192968593,
+      "weight_pct": 0.3235465419296859
+    },
+    {
+      "stock_code": "000088.SH",
+      "stock_name": "股票88",
+      "industry": "建筑材料",
+      "market_cap": 2144355.417820349,
+      "price": 9.93727194688988,
+      "fcf_yield": 51.52844358763122,
+      "adjusted_weight": 0.003209133089984983,
+      "weight_pct": 0.3209133089984983
+    },
+    {
+      "stock_code": "000572.SH",
+      "stock_name": "股票572",
+      "industry": "纺织服装",
+      "market_cap": 868216.7350994035,
+      "price": 92.30863631772375,
+      "fcf_yield": 50.76227544017419,
+      "adjusted_weight": 0.003162749285841297,
+      "weight_pct": 0.3162749285841297
+    },
+    {
+      "stock_code": "000711.SZ",
+      "stock_name": "股票711",
+      "industry": "制造业",
+      "market_cap": 944073.4329257788,
+      "price": 39.98948629823951,
+      "fcf_yield": 49.792741516921375,
+      "adjusted_weight": 0.003104053721746028,
+      "weight_pct": 0.3104053721746028
+    },
+    {
+      "stock_code": "000382.SH",
+      "stock_name": "股票382",
+      "industry": "电子",
+      "market_cap": 2140860.3925247374,
+      "price": 10.267297391864934,
+      "fcf_yield": 49.014209787159224,
+      "adjusted_weight": 0.003056921426579766,
+      "weight_pct": 0.3056921426579766
+    },
+    {
+      "stock_code": "000679.SZ",
+      "stock_name": "股票679",
+      "industry": "建筑装饰",
+      "market_cap": 1855974.0746049858,
+      "price": 26.76607832158291,
+      "fcf_yield": 48.3972268452315,
+      "adjusted_weight": 0.003019569291760072,
+      "weight_pct": 0.3019569291760072
+    },
+    {
+      "stock_code": "000161.SZ",
+      "stock_name": "股票161",
+      "industry": "轻工制造",
+      "market_cap": 2172433.3313687765,
+      "price": 42.33255140780267,
+      "fcf_yield": 46.52793689141069,
+      "adjusted_weight": 0.0029064025157807204,
+      "weight_pct": 0.29064025157807205
+    },
+    {
+      "stock_code": "000323.SZ",
+      "stock_name": "股票323",
+      "industry": "公用事业",
+      "market_cap": 7875354.051525129,
+      "price": 21.036950549533596,
+      "fcf_yield": 44.153824640798184,
+      "adjusted_weight": 0.0027626738081686472,
+      "weight_pct": 0.27626738081686475
+    },
+    {
+      "stock_code": "000445.SZ",
+      "stock_name": "股票445",
+      "industry": "信息技术",
+      "market_cap": 432169.1746445534,
+      "price": 46.612070653281286,
+      "fcf_yield": 44.00625977406206,
+      "adjusted_weight": 0.002753740234122408,
+      "weight_pct": 0.27537402341224076
+    },
+    {
+      "stock_code": "000013.SZ",
+      "stock_name": "股票13",
+      "industry": "公用事业",
+      "market_cap": 1009655.823060768,
+      "price": 92.84589373646347,
+      "fcf_yield": 43.9796886408491,
+      "adjusted_weight": 0.00275213161825536,
+      "weight_pct": 0.275213161825536
+    },
+    {
+      "stock_code": "000575.SZ",
+      "stock_name": "股票575",
+      "industry": "休闲服务",
+      "market_cap": 527782.2945741724,
+      "price": 40.116096174139535,
+      "fcf_yield": 43.42022059048081,
+      "adjusted_weight": 0.002718261433806864,
+      "weight_pct": 0.2718261433806864
+    },
+    {
+      "stock_code": "000726.SH",
+      "stock_name": "股票726",
+      "industry": "公用事业",
+      "market_cap": 793846.1045194158,
+      "price": 82.59291944731041,
+      "fcf_yield": 42.326684105642535,
+      "adjusted_weight": 0.002652058757142395,
+      "weight_pct": 0.2652058757142395
+    },
+    {
+      "stock_code": "000332.SH",
+      "stock_name": "股票332",
+      "industry": "农林牧渔",
+      "market_cap": 6120460.569773715,
+      "price": 94.39427064457152,
+      "fcf_yield": 41.73197195646836,
+      "adjusted_weight": 0.002616054895665352,
+      "weight_pct": 0.2616054895665352
+    },
+    {
+      "stock_code": "000075.SZ",
+      "stock_name": "股票75",
+      "industry": "食品饮料",
+      "market_cap": 1256598.8566066588,
+      "price": 10.495054273522655,
+      "fcf_yield": 40.92084396417533,
+      "adjusted_weight": 0.0025669492234250543,
+      "weight_pct": 0.2566949223425054
+    },
+    {
+      "stock_code": "000712.SH",
+      "stock_name": "股票712",
+      "industry": "休闲服务",
+      "market_cap": 2742120.248752777,
+      "price": 89.68811794875118,
+      "fcf_yield": 40.02868675156108,
+      "adjusted_weight": 0.0025129380438261312,
+      "weight_pct": 0.2512938043826131
+    },
+    {
+      "stock_code": "000132.SH",
+      "stock_name": "股票132",
+      "industry": "建筑装饰",
+      "market_cap": 387907.87637502386,
+      "price": 13.417040819563637,
+      "fcf_yield": 39.21120261930651,
+      "adjusted_weight": 0.002463447571001178,
+      "weight_pct": 0.2463447571001178
+    },
+    {
+      "stock_code": "000649.SZ",
+      "stock_name": "股票649",
+      "industry": "纺织服装",
+      "market_cap": 1331902.8524772495,
+      "price": 53.10512507695985,
+      "fcf_yield": 38.219606953804956,
+      "adjusted_weight": 0.002403416389476588,
+      "weight_pct": 0.24034163894765878
+    },
+    {
+      "stock_code": "000376.SH",
+      "stock_name": "股票376",
+      "industry": "汽车",
+      "market_cap": 597687.0529337929,
+      "price": 83.01964493542032,
+      "fcf_yield": 37.516796675284326,
+      "adjusted_weight": 0.002360868269436269,
+      "weight_pct": 0.23608682694362693
+    },
+    {
+      "stock_code": "000103.SZ",
+      "stock_name": "股票103",
+      "industry": "农林牧渔",
+      "market_cap": 526519.009967545,
+      "price": 50.52240679714199,
+      "fcf_yield": 36.59220605915834,
+      "adjusted_weight": 0.0023048935722450336,
+      "weight_pct": 0.23048935722450337
+    },
+    {
+      "stock_code": "000439.SZ",
+      "stock_name": "股票439",
+      "industry": "商业贸易",
+      "market_cap": 352087.81392483145,
+      "price": 69.26485363177905,
+      "fcf_yield": 36.42371977152596,
+      "adjusted_weight": 0.0022946934158010785,
+      "weight_pct": 0.22946934158010784
+    },
+    {
+      "stock_code": "000392.SH",
+      "stock_name": "股票392",
+      "industry": "化工",
+      "market_cap": 1196959.2767730183,
+      "price": 5.818805246219126,
+      "fcf_yield": 36.12645847397348,
+      "adjusted_weight": 0.0022766972228623144,
+      "weight_pct": 0.22766972228623145
+    },
+    {
+      "stock_code": "000300.SH",
+      "stock_name": "股票300",
+      "industry": "医药生物",
+      "market_cap": 254434.41999993738,
+      "price": 70.74480253877576,
+      "fcf_yield": 35.136980816401646,
+      "adjusted_weight": 0.002216794265494932,
+      "weight_pct": 0.22167942654949319
+    },
+    {
+      "stock_code": "000378.SH",
+      "stock_name": "股票378",
+      "industry": "汽车",
+      "market_cap": 3797412.347730856,
+      "price": 59.41317628525985,
+      "fcf_yield": 35.003242829265155,
+      "adjusted_weight": 0.002208697770459868,
+      "weight_pct": 0.22086977704598681
+    },
+    {
+      "stock_code": "000205.SZ",
+      "stock_name": "股票205",
+      "industry": "公用事业",
+      "market_cap": 3137902.341516276,
+      "price": 97.82490213989946,
+      "fcf_yield": 34.328086708934016,
+      "adjusted_weight": 0.002167823832596761,
+      "weight_pct": 0.2167823832596761
+    },
+    {
+      "stock_code": "000292.SH",
+      "stock_name": "股票292",
+      "industry": "电子",
+      "market_cap": 1569301.4633329874,
+      "price": 61.94880826757808,
+      "fcf_yield": 34.14855350083415,
+      "adjusted_weight": 0.002156954895811238,
+      "weight_pct": 0.2156954895811238
+    },
+    {
+      "stock_code": "000635.SZ",
+      "stock_name": "股票635",
+      "industry": "纺织服装",
+      "market_cap": 1323861.68576631,
+      "price": 38.10540770058726,
+      "fcf_yield": 33.65147407440202,
+      "adjusted_weight": 0.002126861717393407,
+      "weight_pct": 0.2126861717393407
+    },
+    {
+      "stock_code": "000361.SZ",
+      "stock_name": "股票361",
+      "industry": "食品饮料",
+      "market_cap": 6848085.538682919,
+      "price": 59.2639224764768,
+      "fcf_yield": 33.57416624888053,
+      "adjusted_weight": 0.002122181503200655,
+      "weight_pct": 0.2122181503200655
+    },
+    {
+      "stock_code": "000533.SZ",
+      "stock_name": "股票533",
+      "industry": "建筑装饰",
+      "market_cap": 3452842.162175032,
+      "price": 19.60618464977722,
+      "fcf_yield": 33.2988846183649,
+      "adjusted_weight": 0.002105515958859545,
+      "weight_pct": 0.21055159588595448
+    },
+    {
+      "stock_code": "000597.SZ",
+      "stock_name": "股票597",
+      "industry": "公用事业",
+      "market_cap": 3005570.6023930022,
+      "price": 26.60506422873528,
+      "fcf_yield": 32.58788399373113,
+      "adjusted_weight": 0.002062471995431268,
+      "weight_pct": 0.20624719954312679
+    },
+    {
+      "stock_code": "000538.SH",
+      "stock_name": "股票538",
+      "industry": "电气设备",
+      "market_cap": 3519522.2610549387,
+      "price": 15.71570729232481,
+      "fcf_yield": 32.499096021634436,
+      "adjusted_weight": 0.002057096773397153,
+      "weight_pct": 0.20570967733971532
+    },
+    {
+      "stock_code": "000728.SH",
+      "stock_name": "股票728",
+      "industry": "食品饮料",
+      "market_cap": 160852.0295917499,
+      "price": 85.06478838082326,
+      "fcf_yield": 32.182335736522205,
+      "adjusted_weight": 0.0020379201121460823,
+      "weight_pct": 0.20379201121460822
+    },
+    {
+      "stock_code": "000708.SH",
+      "stock_name": "股票708",
+      "industry": "信息技术",
+      "market_cap": 9941065.146515492,
+      "price": 50.77797147477407,
+      "fcf_yield": 31.687967553830003,
+      "adjusted_weight": 0.0020079910723694045,
+      "weight_pct": 0.20079910723694044
+    },
+    {
+      "stock_code": "000697.SZ",
+      "stock_name": "股票697",
+      "industry": "农林牧渔",
+      "market_cap": 1605511.0837980267,
+      "price": 84.67242967678342,
+      "fcf_yield": 30.618875631874555,
+      "adjusted_weight": 0.0019432682690472278,
+      "weight_pct": 0.19432682690472278
+    },
+    {
+      "stock_code": "000789.SZ",
+      "stock_name": "股票789",
+      "industry": "汽车",
+      "market_cap": 4275746.336526675,
+      "price": 55.103217281155544,
+      "fcf_yield": 30.285826574608826,
+      "adjusted_weight": 0.0019231054858595865,
+      "weight_pct": 0.19231054858595864
+    },
+    {
+      "stock_code": "000452.SH",
+      "stock_name": "股票452",
+      "industry": "电子",
+      "market_cap": 1148579.2180388495,
+      "price": 20.176198722224697,
+      "fcf_yield": 29.940645544684035,
+      "adjusted_weight": 0.0019022082332926554,
+      "weight_pct": 0.19022082332926554
+    },
+    {
+      "stock_code": "000343.SZ",
+      "stock_name": "股票343",
+      "industry": "制造业",
+      "market_cap": 4321097.882062355,
+      "price": 54.079621226156156,
+      "fcf_yield": 29.854051896428032,
+      "adjusted_weight": 0.0018969658555794539,
+      "weight_pct": 0.18969658555794539
+    },
+    {
+      "stock_code": "000476.SH",
+      "stock_name": "股票476",
+      "industry": "纺织服装",
+      "market_cap": 2006799.2814100387,
+      "price": 59.330264633600606,
+      "fcf_yield": 29.795592223096985,
+      "adjusted_weight": 0.00189342670813892,
+      "weight_pct": 0.189342670813892
+    },
+    {
+      "stock_code": "000574.SH",
+      "stock_name": "股票574",
+      "industry": "轻工制造",
+      "market_cap": 5658333.539287897,
+      "price": 75.32973793017538,
+      "fcf_yield": 28.437808963911674,
+      "adjusted_weight": 0.0018112265371024977,
+      "weight_pct": 0.18112265371024977
+    },
+    {
+      "stock_code": "000790.SH",
+      "stock_name": "股票790",
+      "industry": "电气设备",
+      "market_cap": 1002611.9786730197,
+      "price": 59.193501952346786,
+      "fcf_yield": 28.21165389766838,
+      "adjusted_weight": 0.0017975351139683617,
+      "weight_pct": 0.17975351139683618
+    },
+    {
+      "stock_code": "000220.SH",
+      "stock_name": "股票220",
+      "industry": "通信",
+      "market_cap": 3055849.3141058614,
+      "price": 43.771310398462695,
+      "fcf_yield": 27.608504283156947,
+      "adjusted_weight": 0.0017610204485105328,
+      "weight_pct": 0.1761020448510533
+    },
+    {
+      "stock_code": "000179.SZ",
+      "stock_name": "股票179",
+      "industry": "国防军工",
+      "market_cap": 733550.6419287345,
+      "price": 65.27029380222544,
+      "fcf_yield": 27.492347009082753,
+      "adjusted_weight": 0.0017539882894885162,
+      "weight_pct": 0.17539882894885162
+    },
+    {
+      "stock_code": "000119.SZ",
+      "stock_name": "股票119",
+      "industry": "信息技术",
+      "market_cap": 355625.2002084227,
+      "price": 6.151473591169861,
+      "fcf_yield": 27.380225839902888,
+      "adjusted_weight": 0.0017472004761751318,
+      "weight_pct": 0.1747200476175132
+    },
+    {
+      "stock_code": "000539.SZ",
+      "stock_name": "股票539",
+      "industry": "休闲服务",
+      "market_cap": 144975.52576649794,
+      "price": 47.66672432337383,
+      "fcf_yield": 26.631240100466798,
+      "adjusted_weight": 0.0017018568946653488,
+      "weight_pct": 0.1701856894665349
+    },
+    {
+      "stock_code": "000490.SH",
+      "stock_name": "股票490",
+      "industry": "通信",
+      "market_cap": 932722.0212655535,
+      "price": 96.25401095072634,
+      "fcf_yield": 26.557271904044974,
+      "adjusted_weight": 0.0016973788615507132,
+      "weight_pct": 0.16973788615507132
+    },
+    {
+      "stock_code": "000287.SZ",
+      "stock_name": "股票287",
+      "industry": "纺织服装",
+      "market_cap": 5189399.219597598,
+      "price": 5.017720176212996,
+      "fcf_yield": 26.424415193849445,
+      "adjusted_weight": 0.0016893357190038228,
+      "weight_pct": 0.16893357190038227
+    },
+    {
+      "stock_code": "000428.SH",
+      "stock_name": "股票428",
+      "industry": "机械设备",
+      "market_cap": 3290372.3662705305,
+      "price": 47.14634613586437,
+      "fcf_yield": 26.313520835537386,
+      "adjusted_weight": 0.0016826221767955508,
+      "weight_pct": 0.16826221767955507
+    },
+    {
+      "stock_code": "000234.SH",
+      "stock_name": "股票234",
+      "industry": "采掘",
+      "market_cap": 5567476.082198526,
+      "price": 71.46575911410156,
+      "fcf_yield": 25.10159474880317,
+      "adjusted_weight": 0.0016092521960279075,
+      "weight_pct": 0.16092521960279074
+    },
+    {
+      "stock_code": "000165.SZ",
+      "stock_name": "股票165",
+      "industry": "交通运输",
+      "market_cap": 1002817.7766641683,
+      "price": 10.476520308907364,
+      "fcf_yield": 24.755833092155385,
+      "adjusted_weight": 0.0015883197923309152,
+      "weight_pct": 0.15883197923309153
+    },
+    {
+      "stock_code": "000735.SZ",
+      "stock_name": "股票735",
+      "industry": "休闲服务",
+      "market_cap": 6917171.2206002455,
+      "price": 76.52957432994555,
+      "fcf_yield": 23.90442507062401,
+      "adjusted_weight": 0.001536775567935592,
+      "weight_pct": 0.1536775567935592
+    },
+    {
+      "stock_code": "000548.SH",
+      "stock_name": "股票548",
+      "industry": "国防军工",
+      "market_cap": 1034076.4703288431,
+      "price": 15.537421933106618,
+      "fcf_yield": 23.331605740944116,
+      "adjusted_weight": 0.0015020970973077332,
+      "weight_pct": 0.15020970973077333
+    }
+  ],
+  "industry_distribution": {
+    "机械设备": 0.14993669169594218,
+    "公用事业": 0.1372328168438605,
+    "信息技术": 0.12119066877583291,
+    "商业贸易": 0.10915698416927422,
+    "家用电器": 0.09011009451715182,
+    "制造业": 0.055796366447483196,
+    "通信": 0.05020511448757531,
+    "传媒": 0.0432757275334625,
+    "化工": 0.03938434292150587,
+    "食品饮料": 0.031512953538241135,
+    "采掘": 0.02763130942768028,
+    "国防军工": 0.02475430684947364,
+    "休闲服务": 0.017743735015763033,
+    "轻工制造": 0.01597550718348903,
+    "纺织服装": 0.015202826352366212,
+    "电气设备": 0.013762805964339264,
+    "汽车": 0.0129312648483822,
+    "医药生物": 0.012223126786420166,
+    "建筑装饰": 0.007588532821620794,
+    "电子": 0.00711608455568366,
+    "农林牧渔": 0.006864216736957613,
+    "计算机": 0.005607069645178584,
+    "建筑材料": 0.003209133089984983,
+    "交通运输": 0.0015883197923309152
+  }
+}
